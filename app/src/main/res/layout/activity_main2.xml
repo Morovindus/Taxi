@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="Такси"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:background="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/Telephone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        />
+
+
+    <Button
+        android:id="@+id/button_path"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Установить маршрут" />
+
+    <TextView
+        android:id="@+id/Path"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+         />
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Вызов такси" />
+
+
+</LinearLayout>
